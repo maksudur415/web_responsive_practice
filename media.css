@@ -1,0 +1,107 @@
+/*** xlg ***/
+@media screen and (max-width: 1400px){
+    .container{
+
+    }
+}
+/*** lg ***/
+@media screen and (max-width: 1200px){
+    .container{
+        max-width: 1000px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .feature{
+        padding: 30px 10px;
+    }
+    .feature img{
+        height: 70px;
+        margin-bottom: 8px;
+     }
+     .course ul li strong {
+        line-height: 14px;
+    }
+    .course ul li svg {
+        width: 15px;
+        height: 15px;
+    }
+    footer{
+        padding: 50px 0 20px;
+    }
+    footer ul {
+        padding: 0 10px;
+    }
+    footer ul li strong {
+        color: #bae4ba;
+        font-size: 25px;
+    }
+    .col_7_10 {
+        flex-basis: 98%;
+}
+.col_3_10 {
+    flex-basis: 96%;
+}
+}
+/*** md ***/
+
+@media screen and (max-width: 992px){
+    .feature h3 {
+        font-size: 20px;
+    }
+    .feature span{
+        font-size: 14px;
+    }
+    h2{
+        padding-bottom: 20px;
+    }
+    .course h3 {
+        line-height: 20px;
+    }
+    .btn {
+        font-size: 16px;
+        line-height: 14px;
+        padding: 10px 20px;
+}
+.course ul{
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 11px;
+}
+.course ul li strong {
+    line-height: 25px;
+}
+}
+/*** sm ***/
+@media screen and (max-width: 768px){
+   .bannerContent h1{
+    font-size: 36px;
+    line-height: 40px;
+   }
+   .bannerContent p{
+    font-size: 16px;
+    line-height: 21px;
+    margin: 10px 0;
+   }
+   .customer {
+    flex-basis: 21%;
+    padding: 10px;
+}
+.col_1_4 {
+    flex-basis: 50%;
+}
+.feedback{
+    flex-basis:
+}
+}
+/*** xsm ***/
+@media screen and (max-width: 575px){
+    nav ul {
+        flex-basis: 76%;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+.customer{
+    flex-basis: 35%;
+}
+
+}
