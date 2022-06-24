@@ -95,6 +95,10 @@
 }
 /*** xsm ***/
 @media screen and (max-width: 575px){
+    .conainer{
+        padding-left: 19px;
+        padding-right: 32px;
+    }
     nav ul {
         flex-basis: 76%;
         align-items: flex-start;
@@ -103,5 +107,14 @@
 .customer{
     flex-basis: 35%;
 }
-
+.col_1_3 {
+    flex-basis: 100%;
+    padding: 15px;
+}
+nav ul {
+    flex-basis: 76%;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 }
