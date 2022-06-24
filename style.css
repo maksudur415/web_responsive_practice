@@ -89,13 +89,12 @@ nav ul li a:hover{
     border-radius: 33px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 17px;
     color: #FFFFFF;
-    padding: 12px 36px;
+    padding: 7px 37px;
     display: inline-block;
     text-decoration: none;
     transition-duration: 0.3s;
-    
 }
 .btn:hover{
     background: transparent;
@@ -235,6 +234,11 @@ footer{
     padding: 15px;
     box-sizing: border-box;
 }
+.new1{
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.33, rgb(255, 255, 255)), color-stop(0.67, rgb(0,255,255)));
+    background-image: -moz-linear-gradient(center bottom, rgb(255, 255, 255) 33%, #21B573 67% );
+    padding: 1px;
+}
 .col_7_10{
     flex-basis: 60%;
     padding: 15px;
@@ -249,9 +253,10 @@ footer{
 }
 footer p {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 23px;
     color: #FFFFFF;
+    margin: 0px;
 }
 footer ul{
     list-style: none;
@@ -295,6 +300,7 @@ color: #CDCDCD;
     margin-bottom: 12px;
     box-shadow: #03f803;
     border-radius: 35px;
+    padding: 0px;
 }
 
 .newsletter p {
